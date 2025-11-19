@@ -60,9 +60,9 @@ export function Navbar({ onOpenModal }: NavbarProps) {
               <Image
                 src="/images/logo.png"
                 alt="GlassUp"
-                width={450}
-                height={135}
-                className="h-24 w-auto"
+                width={320}
+                height={96}
+                className="h-16 w-auto"
                 priority
               />
             </a>

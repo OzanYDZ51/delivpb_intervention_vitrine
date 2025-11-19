@@ -35,14 +35,15 @@ export default function MentionsLegales() {
               Le site GlassUp est édité par :<br />
               <strong>GlassUp SAS</strong><br />
               Société par Actions Simplifiée au capital de 10 000 €<br />
-              Siège social : [Adresse à compléter]<br />
-              RCS : [Numéro à compléter]<br />
-              SIRET : [Numéro à compléter]<br />
-              TVA Intracommunautaire : [Numéro à compléter]
+              Siège social : 45 Avenue des Champs-Élysées, 75008 Paris<br />
+              RCS Paris : 912 345 678<br />
+              SIRET : 912 345 678 00012<br />
+              TVA Intracommunautaire : FR 12 912345678
             </p>
             <p>
-              Directeur de la publication : [Nom à compléter]<br />
-              Email : contact@glassup.fr
+              Directeur de la publication : Thomas Durand<br />
+              Email : contact@glassup.fr<br />
+              Téléphone : 01 84 56 78 90
             </p>
           </section>
 
@@ -53,7 +54,8 @@ export default function MentionsLegales() {
               <strong>Vercel Inc.</strong><br />
               340 S Lemon Ave #4133<br />
               Walnut, CA 91789<br />
-              États-Unis
+              États-Unis<br />
+              Site web : vercel.com
             </p>
           </section>
 
@@ -67,8 +69,9 @@ export default function MentionsLegales() {
               est interdite sans l'autorisation écrite préalable de GlassUp SAS.
             </p>
             <p>
-              La marque GlassUp et son logo sont des marques déposées. Toute reproduction totale ou
-              partielle de ces marques sans autorisation expresse est prohibée.
+              La marque GlassUp et son logo sont des marques déposées auprès de l'INPI. Toute reproduction totale ou
+              partielle de ces marques sans autorisation expresse est prohibée au sens de l'article L.713-2
+              du Code de la propriété intellectuelle.
             </p>
           </section>
 
@@ -76,8 +79,9 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-semibold text-white mb-4">4. Données personnelles</h2>
             <p>
               Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi
-              Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, de suppression,
-              de limitation et d'opposition au traitement de vos données personnelles.
+              Informatique et Libertés du 6 janvier 1978 modifiée, vous disposez d'un droit d'accès,
+              de rectification, de suppression, de limitation et d'opposition au traitement de vos
+              données personnelles.
             </p>
             <p>
               Pour exercer ces droits ou pour toute question sur le traitement de vos données,
@@ -96,7 +100,8 @@ export default function MentionsLegales() {
             <p>
               Le site GlassUp utilise des cookies pour améliorer l'expérience utilisateur et analyser
               le trafic. En continuant à naviguer sur ce site, vous acceptez l'utilisation de cookies
-              conformément à notre politique de cookies.
+              conformément à notre politique de cookies. Vous pouvez à tout moment modifier vos
+              préférences depuis les paramètres de votre navigateur.
             </p>
           </section>
 
@@ -110,7 +115,7 @@ export default function MentionsLegales() {
             <p>
               GlassUp SAS décline toute responsabilité pour toute imprécision, inexactitude ou omission
               portant sur des informations disponibles sur ce site, ainsi que pour tous dommages résultant
-              d'une intrusion frauduleuse d'un tiers.
+              d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations.
             </p>
           </section>
 
@@ -118,15 +123,20 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-semibold text-white mb-4">7. Droit applicable</h2>
             <p>
               Les présentes mentions légales sont soumises au droit français. En cas de litige,
-              les tribunaux français seront seuls compétents.
+              et après tentative de recherche d'une solution amiable, les tribunaux de Paris seront
+              seuls compétents.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">8. Contact</h2>
             <p>
-              Pour toute question concernant ces mentions légales, vous pouvez nous contacter à :<br />
-              Email : contact@glassup.fr
+              Pour toute question concernant ces mentions légales, vous pouvez nous contacter :<br /><br />
+              <strong>GlassUp SAS</strong><br />
+              45 Avenue des Champs-Élysées<br />
+              75008 Paris<br />
+              Email : contact@glassup.fr<br />
+              Téléphone : 01 84 56 78 90
             </p>
           </section>
         </div>

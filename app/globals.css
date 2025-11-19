@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Prime Video exact colors */
+    --bg-primary: #0F171E;
+    --bg-secondary: #1A242F;
+    --bg-tertiary: #243447;
+    --accent-cyan: #00A8E1;
+    --accent-cyan-hover: #00C8FF;
+    --text-primary: #FFFFFF;
+    --text-secondary: #8197A4;
+    --text-tertiary: #5A6E7A;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#0F171E] text-white antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  ::selection {
+    @apply bg-[#00A8E1]/30 text-white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#0F171E];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#243447] rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#00A8E1];
+  }
+}
+
+@layer components {
+  /* Prime Video gradient text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-[#00A8E1] to-[#00C8FF] bg-clip-text text-transparent;
+  }
+
+  /* Prime Video primary button style */
+  .btn-prime {
+    @apply bg-[#00A8E1] text-white font-semibold px-6 py-3 rounded-md;
+    @apply hover:bg-[#00C8FF] transition-all duration-200;
+    @apply active:scale-[0.98];
+  }
+
+  /* Prime Video secondary button */
+  .btn-prime-secondary {
+    @apply bg-[#1A242F] text-white font-semibold px-6 py-3 rounded-md border border-[#3D4F61];
+    @apply hover:bg-[#243447] hover:border-[#5A6E7A] transition-all duration-200;
+  }
+
+  /* Prime Video card style */
+  .card-prime {
+    @apply bg-[#1A242F] rounded-lg border border-[#243447];
+    @apply hover:border-[#3D4F61] transition-all duration-200;
+  }
+
+  /* Glass effect for special elements */
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+/* Custom animations */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Grid pattern - more subtle like Prime */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(0, 168, 225, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 168, 225, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+}

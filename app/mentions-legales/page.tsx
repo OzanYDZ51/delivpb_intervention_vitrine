@@ -62,15 +62,15 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">3. Propriété intellectuelle</h2>
             <p>
-              L'ensemble du contenu de ce site (textes, images, vidéos, logos, icônes, sons, logiciels, etc.)
+              L&apos;ensemble du contenu de ce site (textes, images, vidéos, logos, icônes, sons, logiciels, etc.)
               est la propriété exclusive de GlassUp SAS ou de ses partenaires. Toute reproduction,
               représentation, modification, publication, transmission, dénaturation, totale ou partielle
               du site ou de son contenu, par quelque procédé que ce soit, et sur quelque support que ce soit,
-              est interdite sans l'autorisation écrite préalable de GlassUp SAS.
+              est interdite sans l&apos;autorisation écrite préalable de GlassUp SAS.
             </p>
             <p>
-              La marque GlassUp et son logo sont des marques déposées auprès de l'INPI. Toute reproduction totale ou
-              partielle de ces marques sans autorisation expresse est prohibée au sens de l'article L.713-2
+              La marque GlassUp et son logo sont des marques déposées auprès de l&apos;INPI. Toute reproduction totale ou
+              partielle de ces marques sans autorisation expresse est prohibée au sens de l&apos;article L.713-2
               du Code de la propriété intellectuelle.
             </p>
           </section>
@@ -79,8 +79,8 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-semibold text-white mb-4">4. Données personnelles</h2>
             <p>
               Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi
-              Informatique et Libertés du 6 janvier 1978 modifiée, vous disposez d'un droit d'accès,
-              de rectification, de suppression, de limitation et d'opposition au traitement de vos
+              Informatique et Libertés du 6 janvier 1978 modifiée, vous disposez d&apos;un droit d&apos;accès,
+              de rectification, de suppression, de limitation et d&apos;opposition au traitement de vos
               données personnelles.
             </p>
             <p>
@@ -88,7 +88,7 @@ export default function MentionsLegales() {
               vous pouvez nous contacter à : dpo@glassup.fr
             </p>
             <p>
-              Pour plus d'informations sur la gestion de vos données personnelles, consultez notre{' '}
+              Pour plus d&apos;informations sur la gestion de vos données personnelles, consultez notre{' '}
               <Link href="/confidentialite" className="text-[#00A8E1] hover:underline">
                 Politique de confidentialité
               </Link>.
@@ -98,8 +98,8 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">5. Cookies</h2>
             <p>
-              Le site GlassUp utilise des cookies pour améliorer l'expérience utilisateur et analyser
-              le trafic. En continuant à naviguer sur ce site, vous acceptez l'utilisation de cookies
+              Le site GlassUp utilise des cookies pour améliorer l&apos;expérience utilisateur et analyser
+              le trafic. En continuant à naviguer sur ce site, vous acceptez l&apos;utilisation de cookies
               conformément à notre politique de cookies. Vous pouvez à tout moment modifier vos
               préférences depuis les paramètres de votre navigateur.
             </p>
@@ -108,14 +108,14 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">6. Limitation de responsabilité</h2>
             <p>
-              GlassUp SAS s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées
-              sur ce site. Toutefois, GlassUp SAS ne peut garantir l'exactitude, la précision ou
-              l'exhaustivité des informations mises à disposition sur ce site.
+              GlassUp SAS s&apos;efforce d&apos;assurer l&apos;exactitude et la mise à jour des informations diffusées
+              sur ce site. Toutefois, GlassUp SAS ne peut garantir l&apos;exactitude, la précision ou
+              l&apos;exhaustivité des informations mises à disposition sur ce site.
             </p>
             <p>
               GlassUp SAS décline toute responsabilité pour toute imprécision, inexactitude ou omission
               portant sur des informations disponibles sur ce site, ainsi que pour tous dommages résultant
-              d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations.
+              d&apos;une intrusion frauduleuse d&apos;un tiers ayant entraîné une modification des informations.
             </p>
           </section>
 
@@ -123,7 +123,7 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-semibold text-white mb-4">7. Droit applicable</h2>
             <p>
               Les présentes mentions légales sont soumises au droit français. En cas de litige,
-              et après tentative de recherche d'une solution amiable, les tribunaux de Paris seront
+              et après tentative de recherche d&apos;une solution amiable, les tribunaux de Paris seront
               seuls compétents.
             </p>
           </section>
@@ -146,7 +146,7 @@ export default function MentionsLegales() {
             href="/"
             className="text-[#00A8E1] hover:underline inline-flex items-center gap-2"
           >
-            ← Retour à l'accueil
+            ← Retour à l&apos;accueil
           </Link>
         </div>
       </div>

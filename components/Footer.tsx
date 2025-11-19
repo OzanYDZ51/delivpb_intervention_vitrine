@@ -47,9 +47,9 @@ export function Footer() {
             <Image
               src="/images/logo.png"
               alt="GlassUp"
-              width={250}
-              height={75}
-              className="h-14 w-auto mb-4"
+              width={450}
+              height={135}
+              className="h-24 w-auto mb-4"
             />
             <p className="text-gray-500 text-sm leading-relaxed">
               La plateforme qui connecte garages et techniciens

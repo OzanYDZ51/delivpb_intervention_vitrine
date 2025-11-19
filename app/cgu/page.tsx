@@ -26,47 +26,47 @@ export default function CGU() {
 
       {/* Content */}
       <div className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-8">Conditions Générales d'Utilisation</h1>
+        <h1 className="text-4xl font-bold mb-8">Conditions Générales d&apos;Utilisation</h1>
         <p className="text-gray-400 mb-8">Dernière mise à jour : 19 novembre 2024</p>
 
         <div className="prose prose-invert max-w-none space-y-8 text-gray-300">
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">1. Objet</h2>
             <p>
-              Les présentes Conditions Générales d'Utilisation (CGU) ont pour objet de définir les
-              conditions d'accès et d'utilisation de la plateforme GlassUp, accessible à l'adresse
+              Les présentes Conditions Générales d&apos;Utilisation (CGU) ont pour objet de définir les
+              conditions d&apos;accès et d&apos;utilisation de la plateforme GlassUp, accessible à l&apos;adresse
               glassup.fr (ci-après « la Plateforme »).
             </p>
             <p>
               GlassUp est une plateforme de mise en relation entre les garages automobiles et les
               techniciens spécialisés dans le vitrage automobile, permettant le dépôt de missions,
-              l'achat et la vente de leads, ainsi que la gestion des paiements.
+              l&apos;achat et la vente de leads, ainsi que la gestion des paiements.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">2. Acceptation des CGU</h2>
             <p>
-              L'utilisation de la Plateforme implique l'acceptation pleine et entière des présentes CGU.
-              Si vous n'acceptez pas ces conditions, vous ne devez pas utiliser la Plateforme.
+              L&apos;utilisation de la Plateforme implique l&apos;acceptation pleine et entière des présentes CGU.
+              Si vous n&apos;acceptez pas ces conditions, vous ne devez pas utiliser la Plateforme.
             </p>
             <p>
               GlassUp se réserve le droit de modifier les présentes CGU à tout moment. Les utilisateurs
               seront informés de toute modification par email ou par notification sur la Plateforme.
-              La poursuite de l'utilisation après notification vaut acceptation des nouvelles conditions.
+              La poursuite de l&apos;utilisation après notification vaut acceptation des nouvelles conditions.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">3. Inscription et compte utilisateur</h2>
-            <h3 className="text-xl font-medium text-white mb-3">3.1 Conditions d'inscription</h3>
+            <h3 className="text-xl font-medium text-white mb-3">3.1 Conditions d&apos;inscription</h3>
             <p>
               Pour utiliser les services de GlassUp, vous devez créer un compte en fournissant des
               informations exactes et complètes, notamment :
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Nom et prénom du représentant légal</li>
-              <li>Dénomination sociale de l'entreprise</li>
+              <li>Dénomination sociale de l&apos;entreprise</li>
               <li>Adresse du siège social</li>
               <li>Numéro SIRET valide</li>
               <li>Extrait Kbis de moins de 3 mois</li>
@@ -77,16 +77,16 @@ export default function CGU() {
 
             <h3 className="text-xl font-medium text-white mb-3 mt-6">3.2 Validation du compte</h3>
             <p>
-              Chaque inscription fait l'objet d'une vérification manuelle par l'équipe GlassUp sous
+              Chaque inscription fait l&apos;objet d&apos;une vérification manuelle par l&apos;équipe GlassUp sous
               24 à 48 heures ouvrées. Cette vérification inclut la validation des documents fournis
-              et la conformité de l'activité. Nous nous réservons le droit de refuser toute inscription
+              et la conformité de l&apos;activité. Nous nous réservons le droit de refuser toute inscription
               ne répondant pas à nos critères de qualité.
             </p>
 
             <h3 className="text-xl font-medium text-white mb-3 mt-6">3.3 Sécurité du compte</h3>
             <p>
               Vous êtes responsable de la confidentialité de vos identifiants de connexion et de toute
-              activité effectuée depuis votre compte. En cas de suspicion d'utilisation frauduleuse,
+              activité effectuée depuis votre compte. En cas de suspicion d&apos;utilisation frauduleuse,
               vous devez nous en informer immédiatement à security@glassup.fr.
             </p>
           </section>
@@ -128,14 +128,14 @@ export default function CGU() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">6. Tarification et paiement</h2>
             <p>
-              L'inscription sur GlassUp est gratuite. GlassUp prélève une commission de 8% sur chaque
+              L&apos;inscription sur GlassUp est gratuite. GlassUp prélève une commission de 8% sur chaque
               transaction effectuée via la Plateforme. Ce taux est affiché de manière transparente
               avant chaque validation de mission.
             </p>
             <p>
               Les paiements sont sécurisés et centralisés via notre prestataire de paiement agréé.
               Les fonds sont transférés aux techniciens sous 48h ouvrées après validation photo
-              par le garage donneur d'ordre.
+              par le garage donneur d&apos;ordre.
             </p>
             <p>
               En cas de litige, les fonds peuvent être mis sous séquestre le temps de la résolution.
@@ -145,14 +145,14 @@ export default function CGU() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">7. Responsabilité</h2>
             <p>
-              GlassUp agit en tant qu'intermédiaire technique et n'est pas partie aux contrats conclus
+              GlassUp agit en tant qu&apos;intermédiaire technique et n&apos;est pas partie aux contrats conclus
               entre les garages et les techniciens. GlassUp ne saurait être tenu responsable :
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>De la qualité des prestations réalisées par les techniciens</li>
-              <li>Des dommages résultant de l'exécution des missions</li>
+              <li>Des dommages résultant de l&apos;exécution des missions</li>
               <li>Des informations erronées fournies par les utilisateurs</li>
-              <li>De l'indisponibilité temporaire de la Plateforme</li>
+              <li>De l&apos;indisponibilité temporaire de la Plateforme</li>
             </ul>
             <p className="mt-4">
               Chaque professionnel reste responsable de ses propres prestations et doit disposer
@@ -180,12 +180,12 @@ export default function CGU() {
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Violation des présentes CGU</li>
-              <li>Fourniture d'informations fausses ou frauduleuses</li>
+              <li>Fourniture d&apos;informations fausses ou frauduleuses</li>
               <li>Comportement portant atteinte aux autres utilisateurs</li>
               <li>Non-respect répété des engagements de mission</li>
             </ul>
             <p className="mt-4">
-              L'utilisateur peut à tout moment demander la suppression de son compte en contactant
+              L&apos;utilisateur peut à tout moment demander la suppression de son compte en contactant
               le support à support@glassup.fr. Les données seront conservées conformément à nos
               obligations légales.
             </p>
@@ -195,11 +195,11 @@ export default function CGU() {
             <h2 className="text-2xl font-semibold text-white mb-4">10. Droit applicable et litiges</h2>
             <p>
               Les présentes CGU sont soumises au droit français. En cas de litige relatif à
-              l'interprétation ou l'exécution des présentes, les parties s'engagent à rechercher
+              l&apos;interprétation ou l&apos;exécution des présentes, les parties s&apos;engagent à rechercher
               une solution amiable dans un délai de 30 jours.
             </p>
             <p>
-              À défaut d'accord amiable, le litige sera soumis aux tribunaux compétents de Paris,
+              À défaut d&apos;accord amiable, le litige sera soumis aux tribunaux compétents de Paris,
               nonobstant pluralité de défendeurs ou appel en garantie.
             </p>
           </section>
@@ -222,7 +222,7 @@ export default function CGU() {
             href="/"
             className="text-[#00A8E1] hover:underline inline-flex items-center gap-2"
           >
-            ← Retour à l'accueil
+            ← Retour à l&apos;accueil
           </Link>
         </div>
       </div>

@@ -74,7 +74,7 @@ export function Testimonials() {
                 transition={{ duration: 0.3 }}
               >
                 {/* Quote icon */}
-                <span className="text-6xl text-cyan-500/30 block mb-6">"</span>
+                <span className="text-6xl text-cyan-500/30 block mb-6">&quot;</span>
 
                 {/* Quote */}
                 <p className="text-xl text-gray-300 leading-relaxed mb-8 italic">

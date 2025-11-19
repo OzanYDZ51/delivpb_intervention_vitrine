@@ -55,17 +55,41 @@ export function SignupModal({ isOpen, onClose }: SignupModalProps) {
   }, [isOpen, onClose])
 
   const onSubmit = async (data: SignupFormData) => {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500))
+    try {
+      // Send data to Zapier webhook
+      const response = await fetch('https://hooks.zapier.com/hooks/catch/18372908/uzd58r8/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          phone: data.phone,
+          company: data.company,
+          userType: data.userType,
+          timestamp: new Date().toISOString(),
+          source: 'landing_page',
+        }),
+      })
 
-    console.log('Form submitted:', data)
+      if (!response.ok) {
+        throw new Error('Erreur lors de l\'envoi')
+      }
 
-    toast.success('Inscription réussie !', {
-      description: 'Notre équipe vous contactera sous 24-48h pour valider votre compte.',
-    })
+      toast.success('Inscription réussie !', {
+        description: 'Notre équipe vous contactera sous 24-48h pour valider votre compte.',
+      })
 
-    reset()
-    onClose()
+      reset()
+      onClose()
+    } catch (error) {
+      console.error('Form submission error:', error)
+      toast.error('Erreur lors de l\'inscription', {
+        description: 'Veuillez réessayer ou nous contacter directement.',
+      })
+    }
   }
 
   return (

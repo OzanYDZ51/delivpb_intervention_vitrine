@@ -28,9 +28,9 @@ export function Loader({ isLoading }: LoaderProps) {
               <Image
                 src="/images/logo.png"
                 alt="GlassUp"
-                width={200}
-                height={60}
-                className="h-14 w-auto mx-auto"
+                width={350}
+                height={105}
+                className="h-20 w-auto mx-auto"
                 priority
               />
             </motion.div>

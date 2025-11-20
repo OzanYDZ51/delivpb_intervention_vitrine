@@ -9,12 +9,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'GlassUp - La plateforme Deliveroo du vitrage automobile',
+  title: 'GlassUp - Connectez garages et techniciens du vitrage automobile',
   description: 'Connectez instantanément les garages et les techniciens partout en France. Inscription gratuite, sans engagement.',
   keywords: ['vitrage automobile', 'technicien vitrage', 'garage', 'pare-brise', 'réparation', 'remplacement'],
   authors: [{ name: 'GlassUp' }],
   openGraph: {
-    title: 'GlassUp - La plateforme Deliveroo du vitrage automobile',
+    title: 'GlassUp - Connectez garages et techniciens du vitrage automobile',
     description: 'Connectez instantanément les garages et les techniciens partout en France.',
     url: 'https://glassup.fr',
     siteName: 'GlassUp',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GlassUp - La plateforme Deliveroo du vitrage automobile',
+    title: 'GlassUp - Connectez garages et techniciens du vitrage automobile',
     description: 'Connectez instantanément les garages et les techniciens partout en France.',
   },
   robots: {

@@ -99,8 +99,8 @@ export function Hero({ onOpenModal }: HeroProps) {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6"
             >
-              La plateforme{' '}
-              <span className="text-gradient">Deliveroo</span>
+              Connectez{' '}
+              <span className="text-gradient">garages et techniciens</span>
               <br />
               du vitrage automobile
             </motion.h1>

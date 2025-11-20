@@ -14,7 +14,7 @@ const features = [
   },
   {
     icon: Shield,
-    title: 'Zéro contact direct',
+    title: 'Gestion des interventions par la plateforme',
     description:
       'Tout est géré via la plateforme : missions, communications, facturation. Simple et efficace.',
     gradient: 'from-[#00A8E1] to-[#0077B6]',

@@ -12,10 +12,10 @@ const audiences = {
     description:
       'Trouvez rapidement des techniciens qualifiés pour répondre à vos besoins en vitrage automobile.',
     benefits: [
-      'Déposez une mission en quelques clics',
+      'Publiez une mission en quelques clics',
       'Techniciens certifiés et vérifiés',
       'Paiement sécurisé après validation photo',
-      'Zéro contact direct, tout via la plateforme',
+      'Gestion des interventions via la plateforme',
     ],
   },
   techniciens: {
@@ -52,7 +52,7 @@ export function ForWho() {
             Pour qui
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            GlassUp fonctionne pour
+            Pour tous les professionnels
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Que vous soyez garage ou technicien indépendant

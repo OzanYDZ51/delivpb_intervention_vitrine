@@ -12,7 +12,7 @@ interface EarlyAccessProps {
 const benefits = [
   {
     icon: Wrench,
-    title: 'Déposez une mission',
+    title: 'Publiez votre mission',
     description: 'Publiez votre besoin et recevez des propositions de techniciens qualifiés',
     color: 'from-[#00A8E1] to-[#0077B6]',
   },
@@ -25,13 +25,13 @@ const benefits = [
   {
     icon: Camera,
     title: 'Validation photo',
-    description: 'Photos vérifiées avant paiement, vitrage livré directement au garage',
+    description: 'Photos vérifiées par la plateforme',
     color: 'from-violet-500 to-violet-600',
   },
   {
     icon: CreditCard,
     title: 'Paiement sécurisé',
-    description: 'Paiement centralisé via la plateforme, zéro contact direct nécessaire',
+    description: 'Commande du vitrage centralisée et sécurisée avec photo du vitrage et vérification et suivi de l\'avancement de l\'intervention',
     color: 'from-amber-500 to-amber-600',
   },
 ]

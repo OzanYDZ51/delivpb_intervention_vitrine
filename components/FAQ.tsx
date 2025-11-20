@@ -17,11 +17,6 @@ const faqs = [
       "Chaque inscription est vérifiée manuellement par notre équipe. Nous demandons le Kbis, une pièce d'identité et un RIB pour garantir le sérieux de chaque professionnel sur la plateforme.",
   },
   {
-    question: 'Comment fonctionne le paiement ?',
-    answer:
-      'Les paiements sont centralisés et sécurisés via notre plateforme. Le garage paye via GlassUp, et nous transférons les fonds au technicien sous 48h après validation de la mission.',
-  },
-  {
     question: 'Quelle est la zone de couverture ?',
     answer:
       'GlassUp est disponible partout en France métropolitaine. Notre réseau de techniciens couvre les principales villes et nous nous développons rapidement dans les zones rurales.',

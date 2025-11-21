@@ -102,7 +102,7 @@ export function ValueProposition() {
               <span className="block mb-4">
                 Augmentez votre{' '}
                 <span className="relative inline-block">
-                  <span className="text-gradient">chiffre d'affaires</span>
+                  <span className="text-gradient">chiffre d&apos;affaires</span>
                   <motion.div
                     className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#00A8E1] to-transparent"
                     initial={{ scaleX: 0 }}

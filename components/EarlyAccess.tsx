@@ -19,7 +19,7 @@ const benefits = [
   {
     icon: MapPin,
     title: 'Trouvez un technicien',
-    description: 'Localisez un professionnel certifié dans votre région en quelques clics',
+    description: 'Localisez un professionnel certifié partout en France en quelques clics',
     color: 'from-emerald-500 to-emerald-600',
   },
   {
@@ -31,7 +31,7 @@ const benefits = [
   {
     icon: CreditCard,
     title: 'Paiement sécurisé',
-    description: 'Commande du vitrage centralisée et sécurisée avec photo du vitrage et vérification et suivi de l\'avancement de l\'intervention',
+    description: 'Commande du vitrage centralisée et sécurisée, avec photo du pare-brise, vérification et suivi en temps réel de l\'avancement de l\'intervention.',
     color: 'from-amber-500 to-amber-600',
   },
 ]

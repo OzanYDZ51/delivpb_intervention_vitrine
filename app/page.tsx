@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { Loader } from '@/components/Loader'
 import { Navbar } from '@/components/Navbar'
 import { Hero } from '@/components/Hero'
+import { ValueProposition } from '@/components/ValueProposition'
 import { EarlyAccess } from '@/components/EarlyAccess'
 import { HowItWorks } from '@/components/HowItWorks'
 import { Features } from '@/components/Features'
@@ -37,6 +38,7 @@ export default function Home() {
       <main className="relative">
         <Navbar onOpenModal={openModal} />
         <Hero onOpenModal={openModal} />
+        <ValueProposition />
         <EarlyAccess onOpenModal={openModal} />
         <HowItWorks />
         <Features />

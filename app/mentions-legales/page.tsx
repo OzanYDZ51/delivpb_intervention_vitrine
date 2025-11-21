@@ -34,14 +34,6 @@ export default function MentionsLegales() {
             <p>
               Le site GlassUp est édité par :<br />
               <strong>GlassUp SAS</strong><br />
-              Société par Actions Simplifiée au capital de 10 000 €<br />
-              Siège social : 45 Avenue des Champs-Élysées, 75008 Paris<br />
-              RCS Paris : 912 345 678<br />
-              SIRET : 912 345 678 00012<br />
-              TVA Intracommunautaire : FR 12 912345678
-            </p>
-            <p>
-              Directeur de la publication : Thomas Durand<br />
               Email : contact@glassup.fr<br />
               Téléphone : 01 89 70 71 22
             </p>
@@ -133,8 +125,6 @@ export default function MentionsLegales() {
             <p>
               Pour toute question concernant ces mentions légales, vous pouvez nous contacter :<br /><br />
               <strong>GlassUp SAS</strong><br />
-              45 Avenue des Champs-Élysées<br />
-              75008 Paris<br />
               Email : contact@glassup.fr<br />
               Téléphone : 01 89 70 71 22
             </p>

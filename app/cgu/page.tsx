@@ -209,8 +209,6 @@ export default function CGU() {
             <p>
               Pour toute question concernant ces CGU :<br /><br />
               <strong>GlassUp SAS</strong><br />
-              45 Avenue des Champs-Élysées<br />
-              75008 Paris<br />
               Email : contact@glassup.fr<br />
               Téléphone : 01 89 70 71 22
             </p>

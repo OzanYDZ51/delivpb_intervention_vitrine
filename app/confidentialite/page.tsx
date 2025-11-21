@@ -33,9 +33,7 @@ export default function Confidentialite() {
           <section>
             <h2 className="text-2xl font-semibold text-white mb-4">1. Introduction</h2>
             <p>
-              GlassUp SAS, société par actions simplifiée au capital de 10 000 €, immatriculée au
-              RCS de Paris sous le numéro 912 345 678, dont le siège social est situé au 45 Avenue
-              des Champs-Élysées, 75008 Paris (ci-après « GlassUp », « nous »), s&apos;engage à protéger
+              GlassUp SAS (ci-après « GlassUp », « nous ») s&apos;engage à protéger
               la vie privée des utilisateurs de sa plateforme.
             </p>
             <p>
@@ -50,8 +48,6 @@ export default function Confidentialite() {
             <p>
               Le responsable du traitement des données personnelles est :<br /><br />
               <strong>GlassUp SAS</strong><br />
-              45 Avenue des Champs-Élysées<br />
-              75008 Paris<br />
               Email : dpo@glassup.fr<br />
               Téléphone : 01 89 70 71 22
             </p>
@@ -239,10 +235,7 @@ export default function Confidentialite() {
             <p>
               Pour toute question concernant cette politique de confidentialité ou vos données
               personnelles :<br /><br />
-              <strong>Délégué à la Protection des Données (DPO)</strong><br />
-              GlassUp SAS<br />
-              45 Avenue des Champs-Élysées<br />
-              75008 Paris<br />
+              <strong>GlassUp SAS</strong><br />
               Email : dpo@glassup.fr<br />
               Téléphone : 01 89 70 71 22
             </p>

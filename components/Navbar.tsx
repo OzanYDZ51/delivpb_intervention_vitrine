@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Zap } from 'lucide-react'
+import { Menu, X, Zap, Phone } from 'lucide-react'
 import Image from 'next/image'
 import { Button } from './ui/Button'
 import { cn } from '@/lib/utils'
@@ -80,8 +80,16 @@ export function Navbar({ onOpenModal }: NavbarProps) {
               ))}
             </div>
 
-            {/* CTA Button */}
-            <div className="hidden lg:block">
+            {/* CTA Buttons */}
+            <div className="hidden lg:flex items-center gap-3">
+              <Button
+                variant="secondary"
+                size="sm"
+                leftIcon={<Phone className="w-4 h-4" />}
+                onClick={() => window.location.href = 'tel:+33189707122'}
+              >
+                01 89 70 71 22
+              </Button>
               <Button onClick={onOpenModal} size="sm" rightIcon={<Zap className="w-4 h-4" />}>
                 Accès anticipé
               </Button>
@@ -123,7 +131,15 @@ export function Navbar({ onOpenModal }: NavbarProps) {
                     {link.label}
                   </button>
                 ))}
-                <div className="pt-2 mt-2 border-t border-white/10">
+                <div className="pt-2 mt-2 border-t border-white/10 space-y-2">
+                  <Button
+                    variant="secondary"
+                    leftIcon={<Phone className="w-4 h-4" />}
+                    onClick={() => window.location.href = 'tel:+33189707122'}
+                    className="w-full"
+                  >
+                    01 89 70 71 22
+                  </Button>
                   <Button
                     onClick={() => {
                       setIsMobileMenuOpen(false)

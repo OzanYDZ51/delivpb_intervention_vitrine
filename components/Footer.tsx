@@ -17,6 +17,7 @@ const footerLinks = {
     { label: 'Politique de confidentialité', href: '/confidentialite' },
   ],
   contact: [
+    { label: '01 89 70 71 22', href: 'tel:+33189707122' },
     { label: 'contact@glassup.fr', href: 'mailto:contact@glassup.fr' },
     { label: 'Support', href: 'mailto:support@glassup.fr' },
     { label: 'Partenariats', href: 'mailto:partenariats@glassup.fr' },

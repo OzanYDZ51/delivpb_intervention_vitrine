@@ -212,7 +212,7 @@ export default function CGU() {
               45 Avenue des Champs-Élysées<br />
               75008 Paris<br />
               Email : contact@glassup.fr<br />
-              Téléphone : 01 84 56 78 90
+              Téléphone : 01 89 70 71 22
             </p>
           </section>
         </div>

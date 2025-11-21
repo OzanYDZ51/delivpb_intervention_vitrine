@@ -18,12 +18,12 @@ const steps = [
   {
     icon: Search,
     title: 'Connexion',
-    description: 'Trouvez un technicien à proximité ou recevez des missions selon votre disponibilité.',
+    description: 'Trouvez un technicien partout en France dans la ville de votre choix, ou recevez des missions selon vos disponibilités.',
   },
   {
     icon: CreditCard,
     title: 'Paiement sécurisé',
-    description: 'Réglez directement via la plateforme. Tout est centralisé et sécurisé.',
+    description: 'Commande du vitrage centralisée et sécurisée avec photo du pare-brise. Vérification et suivi en temps réel de l\'avancement de l\'intervention.',
   },
 ]
 
@@ -61,7 +61,7 @@ export function HowItWorks() {
         {/* Steps */}
         <div ref={ref} className="relative">
           {/* Connection line */}
-          <div className="hidden lg:block absolute top-24 left-[10%] right-[10%] h-0.5 bg-navy-700">
+          <div className="hidden lg:block absolute top-16 left-0 right-0 h-[2px] bg-[#16202C] mx-[12.5%]">
             <motion.div
               initial={{ scaleX: 0 }}
               animate={inView ? { scaleX: 1 } : {}}

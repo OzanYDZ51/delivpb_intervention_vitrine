@@ -9,7 +9,7 @@ const features = [
     icon: BadgeCheck,
     title: 'Garages et techniciens certifiés',
     description:
-      'Tous les professionnels sont vérifiés et validés manuellement. Kbis vérifié, sérieux garanti.',
+      'Tous les professionnels sont vérifiés et validés manuellement. Kbis vérifié, sérieux garanti. Système de notations pour choisir les meilleurs.',
     gradient: 'from-emerald-500 to-emerald-600',
   },
   {

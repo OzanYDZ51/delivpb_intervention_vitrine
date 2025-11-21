@@ -21,12 +21,12 @@ const audiences = {
   techniciens: {
     title: 'Techniciens indépendants',
     description:
-      'Développez votre activité et recevez des missions correspondant à vos compétences et votre zone.',
+      'Augmentez votre chiffre d\'affaires et étendez votre activité à toute la France. La nouvelle ère du vitrage auto est arrivée.',
     benefits: [
-      'Recevez des missions qualifiées',
-      'Choisissez vos interventions',
+      'Recevez des missions qualifiées partout en France',
+      'Choisissez vos interventions selon vos disponibilités',
       'Paiement rapide et sécurisé',
-      'Augmentez votre visibilité locale',
+      'Augmentez votre visibilité nationale',
     ],
   },
 }

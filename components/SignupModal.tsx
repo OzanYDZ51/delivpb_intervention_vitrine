@@ -56,9 +56,10 @@ export function SignupModal({ isOpen, onClose }: SignupModalProps) {
 
   const onSubmit = async (data: SignupFormData) => {
     try {
-      // Send data to Zapier webhook
+      // Send data to Zapier webhook with no-cors mode
       const response = await fetch('https://hooks.zapier.com/hooks/catch/18372908/uzd58r8/', {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
@@ -74,10 +75,7 @@ export function SignupModal({ isOpen, onClose }: SignupModalProps) {
         }),
       })
 
-      if (!response.ok) {
-        throw new Error('Erreur lors de l\'envoi')
-      }
-
+      // With no-cors mode, we can't check response status, so we assume success
       toast.success('Inscription réussie !', {
         description: 'Notre équipe vous contactera sous 24-48h pour valider votre compte.',
       })

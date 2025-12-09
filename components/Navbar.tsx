@@ -12,7 +12,6 @@ interface NavbarProps {
 }
 
 const navLinks = [
-  { href: '#early-access', label: 'Early Access' },
   { href: '#how-it-works', label: 'Comment ça marche' },
   { href: '#features', label: 'Avantages' },
   { href: '#for-who', label: 'Pour qui' },
@@ -90,8 +89,12 @@ export function Navbar({ onOpenModal }: NavbarProps) {
               >
                 01 89 70 71 22
               </Button>
-              <Button onClick={onOpenModal} size="sm" rightIcon={<Zap className="w-4 h-4" />}>
-                Accès anticipé
+              <Button
+                onClick={() => window.open('https://app.glassup.fr', '_blank')}
+                size="sm"
+                rightIcon={<Zap className="w-4 h-4" />}
+              >
+                Accéder à la plateforme
               </Button>
             </div>
 
@@ -143,12 +146,12 @@ export function Navbar({ onOpenModal }: NavbarProps) {
                   <Button
                     onClick={() => {
                       setIsMobileMenuOpen(false)
-                      onOpenModal()
+                      window.open('https://app.glassup.fr', '_blank')
                     }}
                     className="w-full"
                     rightIcon={<Zap className="w-4 h-4" />}
                   >
-                    Accès anticipé gratuit
+                    Accéder à la plateforme
                   </Button>
                 </div>
               </div>

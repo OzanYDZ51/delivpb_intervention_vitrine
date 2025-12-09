@@ -49,11 +49,11 @@ export function CTA({ onOpenModal }: CTAProps) {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              onClick={onOpenModal}
+              onClick={() => window.open('https://app.glassup.fr', '_blank')}
               size="lg"
               rightIcon={<Zap className="w-5 h-5" />}
             >
-              S&apos;inscrire gratuitement
+              Accéder à la plateforme
             </Button>
             <Button variant="secondary" size="lg" onClick={scrollToSection}>
               Voir les avantages

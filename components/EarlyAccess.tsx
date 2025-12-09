@@ -53,16 +53,16 @@ export function EarlyAccess({ onOpenModal }: EarlyAccessProps) {
         >
           <span className="inline-flex items-center gap-2 bg-[#00A8E1]/10 text-[#00A8E1] px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-[#00A8E1]/20">
             <Zap className="w-4 h-4" />
-            Accès anticipé exclusif
+            Plateforme disponible
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            Ce que vous pourrez faire
+            Ce que vous pouvez faire
             <br />
-            <span className="text-gradient">dès le lancement</span>
+            <span className="text-gradient">dès maintenant</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Inscrivez-vous maintenant pour être parmi les premiers à utiliser
-            toutes les fonctionnalités de GlassUp
+            Rejoignez GlassUp et profitez de toutes les fonctionnalités
+            de la plateforme dès aujourd&apos;hui
           </p>
         </motion.div>
 
@@ -112,11 +112,11 @@ export function EarlyAccess({ onOpenModal }: EarlyAccessProps) {
               </div>
               <div className="h-12 w-px bg-[#243447] hidden sm:block" />
               <Button
-                onClick={onOpenModal}
+                onClick={() => window.open('https://app.glassup.fr', '_blank')}
                 size="lg"
                 rightIcon={<Zap className="w-5 h-5" />}
               >
-                Rejoindre la liste
+                Accéder à la plateforme
               </Button>
             </div>
           </Card>

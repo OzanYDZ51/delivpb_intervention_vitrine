@@ -137,12 +137,12 @@ export function Hero({ onOpenModal }: HeroProps) {
               className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
             >
               <Button
-                onClick={onOpenModal}
+                onClick={() => window.open('https://app.glassup.fr', '_blank')}
                 size="lg"
                 rightIcon={<Zap className="w-5 h-5" />}
                 className="group"
               >
-                <span>S&apos;inscrire gratuitement</span>
+                <span>Accéder à la plateforme</span>
               </Button>
               <Button
                 variant="secondary"
@@ -154,7 +154,7 @@ export function Hero({ onOpenModal }: HeroProps) {
               </Button>
             </motion.div>
 
-            {/* Early bird benefits */}
+            {/* Benefits */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -171,7 +171,7 @@ export function Hero({ onOpenModal }: HeroProps) {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-emerald-400" />
-                <span>Accès prioritaire</span>
+                <span>Disponible maintenant</span>
               </div>
             </motion.div>
           </div>

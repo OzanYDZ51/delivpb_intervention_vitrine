@@ -26,7 +26,7 @@ export function LaunchBadge() {
         >
           <Rocket className="w-6 h-6 text-white" />
           <span className="text-xl sm:text-2xl font-bold text-white">
-            C'est parti !
+            C&apos;est parti !
           </span>
           <Sparkles className="w-6 h-6 text-white" />
         </motion.div>

@@ -39,7 +39,7 @@ export function CTA({ onOpenModal }: CTAProps) {
           </h2>
           <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
             Rejoignez la communauté des professionnels du vitrage automobile
-            et boostez votre activité dès aujourd'hui.
+            et boostez votre activité dès aujourd&apos;hui.
           </p>
 
           {/* Launch badge */}
@@ -53,7 +53,7 @@ export function CTA({ onOpenModal }: CTAProps) {
               size="lg"
               rightIcon={<Zap className="w-5 h-5" />}
             >
-              S'inscrire gratuitement
+              S&apos;inscrire gratuitement
             </Button>
             <Button variant="secondary" size="lg" onClick={scrollToSection}>
               Voir les avantages

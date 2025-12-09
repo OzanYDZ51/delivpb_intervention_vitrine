@@ -142,7 +142,7 @@ export function Hero({ onOpenModal }: HeroProps) {
                 rightIcon={<Zap className="w-5 h-5" />}
                 className="group"
               >
-                <span>S'inscrire gratuitement</span>
+                <span>S&apos;inscrire gratuitement</span>
               </Button>
               <Button
                 variant="secondary"

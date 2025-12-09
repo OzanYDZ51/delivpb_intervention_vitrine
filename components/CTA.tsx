@@ -33,16 +33,16 @@ export function CTA({ onOpenModal }: CTAProps) {
           className="text-center"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Ne ratez pas
+            La plateforme
             <br />
-            le lancement !
+            est disponible !
           </h2>
           <p className="text-gray-400 text-lg mb-8 max-w-xl mx-auto">
-            Inscrivez-vous maintenant pour profiter des avantages exclusifs
-            réservés aux early adopters.
+            Rejoignez la communauté des professionnels du vitrage automobile
+            et boostez votre activité dès aujourd'hui.
           </p>
 
-          {/* Mini countdown */}
+          {/* Launch badge */}
           <div className="mb-10">
             <Countdown />
           </div>
@@ -53,7 +53,7 @@ export function CTA({ onOpenModal }: CTAProps) {
               size="lg"
               rightIcon={<Zap className="w-5 h-5" />}
             >
-              Accès anticipé gratuit
+              S'inscrire gratuitement
             </Button>
             <Button variant="secondary" size="lg" onClick={scrollToSection}>
               Voir les avantages

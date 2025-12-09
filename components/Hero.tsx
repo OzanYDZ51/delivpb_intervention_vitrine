@@ -88,7 +88,7 @@ export function Hero({ onOpenModal }: HeroProps) {
             >
               <Badge variant="cyan" dot pulse className="text-sm">
                 <Rocket className="w-4 h-4 mr-1" />
-                Lancement le 1er Décembre 2025
+                Nouveau : La plateforme est lancée !
               </Badge>
             </motion.div>
 
@@ -115,20 +115,17 @@ export function Hero({ onOpenModal }: HeroProps) {
               Connectez instantanément garages et techniciens partout en France.
               <br />
               <span className="text-[#00A8E1] font-semibold">
-                Inscrivez-vous maintenant pour un accès anticipé exclusif.
+                Rejoignez-nous dès maintenant !
               </span>
             </motion.p>
 
-            {/* Countdown */}
+            {/* Launch announcement */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
               className="mb-10"
             >
-              <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">
-                Lancement dans
-              </p>
               <Countdown />
             </motion.div>
 
@@ -145,7 +142,7 @@ export function Hero({ onOpenModal }: HeroProps) {
                 rightIcon={<Zap className="w-5 h-5" />}
                 className="group"
               >
-                <span>Accès anticipé gratuit</span>
+                <span>S'inscrire gratuitement</span>
               </Button>
               <Button
                 variant="secondary"
